@@ -1,0 +1,19 @@
+:root {
+    --square-white: #ecc49b;
+    --square-black: #4d372d;
+    --square-droppable: #37800d;
+
+    --disc-black: #0e0e0e;
+    --disc-white: #ffecda;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: var(--disc-black);
+}

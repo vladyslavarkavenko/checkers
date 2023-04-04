@@ -1,0 +1,36 @@
+.disc {
+    width: 80%;
+    height: 80%;
+    margin: 10%;
+    border-radius: 50%;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(0, 0); /* To make square corners transparent when dragging */
+    pointer-events: none;
+    user-select: none;
+}
+
+.disc.draggable {
+    cursor: grab;
+    pointer-events: auto;
+}
+
+.disc.white {
+    background-color: var(--disc-white);
+    color: var(--disc-black);
+}
+
+.disc.white.draggable {
+    border: 2px solid var(--disc-black);
+}
+
+.disc.black {
+    background-color: var(--disc-black);
+    color: var(--disc-white);
+}
+
+.disc.black.draggable {
+    border: 2px solid var(--disc-white);
+}

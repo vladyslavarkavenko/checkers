@@ -1,0 +1,38 @@
+.banner-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.banner {
+    position: absolute;
+    background: var(--square-white);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    cursor: auto;
+}
+
+.banner .title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--disc-black);
+}
+
+.banner .subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    color: var(--disc-black);
+}
+
+.buttons-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

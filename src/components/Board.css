@@ -1,0 +1,8 @@
+.board {
+    width: 100vmin;
+    height: 100vmin;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 2px;
+    background-color: var(--square-white);
+}

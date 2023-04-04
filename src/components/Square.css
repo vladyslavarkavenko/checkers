@@ -1,0 +1,19 @@
+/* For 8x8 board, 100 / 8 = 12.5% */
+.square {
+    width: 12.5%;
+    height: 12.5%;
+    border-radius: 2px;
+    transition: background-color 100ms ease-in;
+}
+
+.square.white {
+    background-color: var(--square-white);
+}
+
+.square.black {
+    background-color: var(--square-black);
+}
+
+.square.droppable {
+    background-color: var(--square-droppable);
+}
